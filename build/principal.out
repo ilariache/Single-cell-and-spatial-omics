@@ -1,0 +1,76 @@
+\BOOKMARK [0][-]{chapter.1}{Evolution of single cell}{}% 1
+\BOOKMARK [1][-]{section.1.1}{The history of sequencing}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.1.1}{Analysis of gene expression in single neurons \(1992\)}{section.1.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.2}{Single-cell transcriptional analysis of neuronal progenitors \(2003\)}{section.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.3}{mRNA-Seq whole-transcriptome analysis of a single cell \(2009\)}{section.1.1}% 5
+\BOOKMARK [2][-]{subsection.1.1.4}{Characterization of the single-cell transcriptional landscape by highly multiplex RNA-seq \(2011\)}{section.1.1}% 6
+\BOOKMARK [2][-]{subsection.1.1.5}{CEL-Seq: Single-Cell RNA-Seq by Multiplexed Linear Amplification \(2012\)}{section.1.1}% 7
+\BOOKMARK [2][-]{subsection.1.1.6}{SMART-seq}{section.1.1}% 8
+\BOOKMARK [2][-]{subsection.1.1.7}{Method of the year \(2013\)}{section.1.1}% 9
+\BOOKMARK [2][-]{subsection.1.1.8}{Drop-seq \(2015\)}{section.1.1}% 10
+\BOOKMARK [2][-]{subsection.1.1.9}{Human Cell Atlas \(2016\)}{section.1.1}% 11
+\BOOKMARK [2][-]{subsection.1.1.10}{10X Genomics \(2016-2017\)}{section.1.1}% 12
+\BOOKMARK [2][-]{subsection.1.1.11}{SPLiT-seq \(2018\)}{section.1.1}% 13
+\BOOKMARK [1][-]{section.1.2}{Comparison of scRNA-seq preparation}{chapter.1}% 14
+\BOOKMARK [0][-]{chapter.2}{scRNA-seq backstage}{}% 15
+\BOOKMARK [1][-]{section.2.1}{Challenges in single cell workflow}{chapter.2}% 16
+\BOOKMARK [2][-]{subsection.2.1.1}{Sources of experimental variability}{section.2.1}% 17
+\BOOKMARK [2][-]{subsection.2.1.2}{Single-cell suspension}{section.2.1}% 18
+\BOOKMARK [2][-]{subsection.2.1.3}{Single cell sorting}{section.2.1}% 19
+\BOOKMARK [2][-]{subsection.2.1.4}{Sample collection and preservation}{section.2.1}% 20
+\BOOKMARK [1][-]{section.2.2}{10xGenomics}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.1}{Feature barcode technology}{section.2.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.2}{Single cell gene expression workflow}{section.2.2}% 23
+\BOOKMARK [2][-]{subsection.2.2.3}{Chip-based single cell separator}{section.2.2}% 24
+\BOOKMARK [2][-]{subsection.2.2.4}{HIVE scRNAseq Solution}{section.2.2}% 25
+\BOOKMARK [0][-]{chapter.3}{Analysis and interpretation of single cell sequencing data}{}% 26
+\BOOKMARK [1][-]{section.3.1}{Pre-processing}{chapter.3}% 27
+\BOOKMARK [2][-]{subsection.3.1.1}{From raw reads to count matrices}{section.3.1}% 28
+\BOOKMARK [2][-]{subsection.3.1.2}{Quality control}{section.3.1}% 29
+\BOOKMARK [2][-]{subsection.3.1.3}{Normalization}{section.3.1}% 30
+\BOOKMARK [1][-]{section.3.2}{Analysis}{chapter.3}% 31
+\BOOKMARK [2][-]{subsection.3.2.1}{Dimensionality reduction}{section.3.2}% 32
+\BOOKMARK [2][-]{subsection.3.2.2}{Clustering}{section.3.2}% 33
+\BOOKMARK [2][-]{subsection.3.2.3}{Cell type annotation}{section.3.2}% 34
+\BOOKMARK [2][-]{subsection.3.2.4}{Integration of single cell datasets}{section.3.2}% 35
+\BOOKMARK [1][-]{section.3.3}{Trajectory analysis}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.4}{Main pitfalls/challenges in current scRNA-Seq}{chapter.3}% 37
+\BOOKMARK [0][-]{chapter.4}{Single cell multimodal omics}{}% 38
+\BOOKMARK [1][-]{subsection.4.0.1}{Single-cell multiomic profiling}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.1}{Transcriptome \046 proteome}{chapter.4}% 40
+\BOOKMARK [2][-]{subsection.4.1.1}{DNA barcoded antibodies used in single-cell multiomics}{section.4.1}% 41
+\BOOKMARK [2][-]{subsection.4.1.2}{CITE-seq \(Cellular Indexing of Transcriptomes and Epitopes\) \(2017\)}{section.4.1}% 42
+\BOOKMARK [2][-]{subsection.4.1.3}{2018: Cell Hashing with barcoded antibodies}{section.4.1}% 43
+\BOOKMARK [2][-]{subsection.4.1.4}{Single-cell mass-spectrometry approaches \(proteome only\)}{section.4.1}% 44
+\BOOKMARK [1][-]{section.4.2}{Transcriptome \046 genome}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.2.1}{DR-seq \(2015\)}{section.4.2}% 46
+\BOOKMARK [2][-]{subsection.4.2.2}{G\046T-seq}{section.4.2}% 47
+\BOOKMARK [2][-]{subsection.4.2.3}{Physical separation of the nucleus and cytoplasm}{section.4.2}% 48
+\BOOKMARK [2][-]{subsection.4.2.4}{Genotyping of Transcriptomes \(GoT\) \(2019\)}{section.4.2}% 49
+\BOOKMARK [2][-]{subsection.4.2.5}{Adaptive immune response}{section.4.2}% 50
+\BOOKMARK [1][-]{section.4.3}{Transcriptome \046 epigenome}{chapter.4}% 51
+\BOOKMARK [2][-]{subsection.4.3.1}{DNA methylation}{section.4.3}% 52
+\BOOKMARK [2][-]{subsection.4.3.2}{Chromatin accessibility}{section.4.3}% 53
+\BOOKMARK [2][-]{subsection.4.3.3}{SNARE-seq \(2019\)}{section.4.3}% 54
+\BOOKMARK [1][-]{section.4.4}{Transcriptome \046 ``CRISPR'' perturbations}{chapter.4}% 55
+\BOOKMARK [2][-]{subsection.4.4.1}{Perturb-seq \(2016\)}{section.4.4}% 56
+\BOOKMARK [2][-]{subsection.4.4.2}{CRISP-seq \(2016\)}{section.4.4}% 57
+\BOOKMARK [1][-]{section.4.5}{Challenges and opportunities in single-cell multimodal omics}{chapter.4}% 58
+\BOOKMARK [0][-]{chapter.5}{Spatial omics}{}% 59
+\BOOKMARK [1][-]{section.5.1}{Spatial Transcriptomics}{chapter.5}% 60
+\BOOKMARK [1][-]{section.5.2}{Sequencing-based methods}{chapter.5}% 61
+\BOOKMARK [2][-]{subsection.5.2.1}{Spatial transcriptomics \(2016\)}{section.5.2}% 62
+\BOOKMARK [2][-]{subsection.5.2.2}{10x Visium platform for spatial gene expression \(2019\)}{section.5.2}% 63
+\BOOKMARK [2][-]{subsection.5.2.3}{Slide-seq \(2019\)}{section.5.2}% 64
+\BOOKMARK [2][-]{subsection.5.2.4}{DBiT-seq \(2020\)}{section.5.2}% 65
+\BOOKMARK [2][-]{subsection.5.2.5}{Seq-scope \(2021\)}{section.5.2}% 66
+\BOOKMARK [2][-]{subsection.5.2.6}{SiT \(2022\)}{section.5.2}% 67
+\BOOKMARK [1][-]{section.5.3}{Imaging based methods}{chapter.5}% 68
+\BOOKMARK [2][-]{subsection.5.3.1}{In-Situ Hybridization}{section.5.3}% 69
+\BOOKMARK [2][-]{subsection.5.3.2}{Summary}{section.5.3}% 70
+\BOOKMARK [1][-]{section.5.4}{Spatial omics analysis}{chapter.5}% 71
+\BOOKMARK [2][-]{subsection.5.4.1}{Deconvolution of low-resolution multi-cell spots}{section.5.4}% 72
+\BOOKMARK [2][-]{subsection.5.4.2}{Cell segmentation in imaging-based methods}{section.5.4}% 73
+\BOOKMARK [2][-]{subsection.5.4.3}{Inference of Cell-cell communication}{section.5.4}% 74
+\BOOKMARK [2][-]{subsection.5.4.4}{Integration between single cell and spatial omics}{section.5.4}% 75
+\BOOKMARK [2][-]{subsection.5.4.5}{Spatal omics reference atlases}{section.5.4}% 76

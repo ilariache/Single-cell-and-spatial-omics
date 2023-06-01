@@ -1,0 +1,122 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Evolution of single cell}{4}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}The history of sequencing}{4}{section.1.1}% 
+\contentsline {subsection}{\numberline {1.1.1}Analysis of gene expression in single neurons (1992)}{4}{subsection.1.1.1}% 
+\contentsline {subsubsection}{\numberline {1.1.1.1}\textbf {Analysis of gene expression in single live neurons (IVT)}}{4}{subsubsection.1.1.1.1}% 
+\contentsline {subsubsection}{\numberline {1.1.1.2}AMPA receptor subunits expressed by single Purkinje cells}{5}{subsubsection.1.1.1.2}% 
+\contentsline {subsection}{\numberline {1.1.2}Single-cell transcriptional analysis of neuronal progenitors (2003)}{5}{subsection.1.1.2}% 
+\contentsline {subsection}{\numberline {1.1.3}mRNA-Seq whole-transcriptome analysis of a single cell (2009)}{6}{subsection.1.1.3}% 
+\contentsline {subsubsection}{\numberline {1.1.3.1}Method}{6}{subsubsection.1.1.3.1}% 
+\contentsline {subsubsection}{\numberline {1.1.3.2}\textbf {Results}}{6}{subsubsection.1.1.3.2}% 
+\contentsline {subsection}{\numberline {1.1.4}Characterization of the single-cell transcriptional landscape by highly multiplex RNA-seq (2011)}{7}{subsection.1.1.4}% 
+\contentsline {subsubsection}{\numberline {1.1.4.1}Methods}{7}{subsubsection.1.1.4.1}% 
+\contentsline {subsubsection}{\numberline {1.1.4.2}Results}{7}{subsubsection.1.1.4.2}% 
+\contentsline {subsection}{\numberline {1.1.5}CEL-Seq: Single-Cell RNA-Seq by Multiplexed Linear Amplification (2012)}{8}{subsection.1.1.5}% 
+\contentsline {subsubsection}{\numberline {1.1.5.1}Methods}{8}{subsubsection.1.1.5.1}% 
+\contentsline {subsubsection}{\numberline {1.1.5.2}Results}{9}{subsubsection.1.1.5.2}% 
+\contentsline {subsection}{\numberline {1.1.6}SMART-seq}{10}{subsection.1.1.6}% 
+\contentsline {subsubsection}{\numberline {1.1.6.1}Full-length mRNA-Seq from single-cell levels of RNA and individual circulating tumor cells (2012)}{10}{subsubsection.1.1.6.1}% 
+\contentsline {subsubsection}{\numberline {1.1.6.2}Smart-seq2 for sensitive full-length transcriptome profiling in single cells (2013)}{10}{subsubsection.1.1.6.2}% 
+\contentsline {subsubsection}{\numberline {1.1.6.3}Single-cell RNA counting at allele and isoform resolution using Smart-seq3 (2020)}{11}{subsubsection.1.1.6.3}% 
+\contentsline {subsection}{\numberline {1.1.7}Method of the year (2013)}{11}{subsection.1.1.7}% 
+\contentsline {subsection}{\numberline {1.1.8}Drop-seq (2015)}{11}{subsection.1.1.8}% 
+\contentsline {subsubsection}{\numberline {1.1.8.1}UMI}{12}{subsubsection.1.1.8.1}% 
+\contentsline {subsubsection}{\numberline {1.1.8.2}Cell cycle analysis}{13}{subsubsection.1.1.8.2}% 
+\contentsline {subsubsection}{\numberline {1.1.8.3}Analysis of the mouse retina (45k cells)}{13}{subsubsection.1.1.8.3}% 
+\contentsline {subsubsection}{\numberline {1.1.8.4}inDrop device}{13}{subsubsection.1.1.8.4}% 
+\contentsline {subsection}{\numberline {1.1.9}Human Cell Atlas (2016)}{14}{subsection.1.1.9}% 
+\contentsline {subsection}{\numberline {1.1.10}10X Genomics (2016-2017)}{14}{subsection.1.1.10}% 
+\contentsline {subsubsection}{\numberline {1.1.10.1}``Genotype'' and single-cell expression analysis of transplant BMMCs (Bone Marrow Mononuclear Cells)}{15}{subsubsection.1.1.10.1}% 
+\contentsline {subsection}{\numberline {1.1.11}SPLiT-seq (2018)}{15}{subsection.1.1.11}% 
+\contentsline {subsubsection}{\numberline {1.1.11.1}Split-pool barcoding}{16}{subsubsection.1.1.11.1}% 
+\contentsline {section}{\numberline {1.2}Comparison of scRNA-seq preparation}{16}{section.1.2}% 
+\contentsline {chapter}{\numberline {2}scRNA-seq backstage}{19}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Challenges in single cell workflow}{19}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}Sources of experimental variability}{19}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.2}Single-cell suspension}{19}{subsection.2.1.2}% 
+\contentsline {subsubsection}{\numberline {2.1.2.1}Single cell suspension from solid tissue}{20}{subsubsection.2.1.2.1}% 
+\contentsline {subsection}{\numberline {2.1.3}Single cell sorting}{20}{subsection.2.1.3}% 
+\contentsline {subsection}{\numberline {2.1.4}Sample collection and preservation}{21}{subsection.2.1.4}% 
+\contentsline {section}{\numberline {2.2}10xGenomics}{22}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Feature barcode technology}{22}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.2}Single cell gene expression workflow}{22}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.3}Chip-based single cell separator}{24}{subsection.2.2.3}% 
+\contentsline {subsection}{\numberline {2.2.4}HIVE scRNAseq Solution}{24}{subsection.2.2.4}% 
+\contentsline {chapter}{\numberline {3}Analysis and interpretation of single cell sequencing data}{25}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Pre-processing}{26}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}From raw reads to count matrices}{26}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.1.2}Quality control}{27}{subsection.3.1.2}% 
+\contentsline {subsection}{\numberline {3.1.3}Normalization}{28}{subsection.3.1.3}% 
+\contentsline {section}{\numberline {3.2}Analysis}{28}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}Dimensionality reduction}{28}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}Clustering}{30}{subsection.3.2.2}% 
+\contentsline {subsubsection}{\numberline {3.2.2.1}t-test differential expression}{31}{subsubsection.3.2.2.1}% 
+\contentsline {subsubsection}{\numberline {3.2.2.2}Non-parametric tests}{32}{subsubsection.3.2.2.2}% 
+\contentsline {subsubsection}{\numberline {3.2.2.3}Multiple test correction methods}{32}{subsubsection.3.2.2.3}% 
+\contentsline {subsection}{\numberline {3.2.3}Cell type annotation}{32}{subsection.3.2.3}% 
+\contentsline {subsubsection}{\numberline {3.2.3.1}\textbf {Annotation based on marker genes (scType)}}{33}{subsubsection.3.2.3.1}% 
+\contentsline {subsubsection}{\numberline {3.2.3.2}Reference based annotation (SingleR)}{33}{subsubsection.3.2.3.2}% 
+\contentsline {subsection}{\numberline {3.2.4}Integration of single cell datasets}{33}{subsection.3.2.4}% 
+\contentsline {section}{\numberline {3.3}Trajectory analysis}{34}{section.3.3}% 
+\contentsline {subsubsection}{\numberline {3.3.0.1}Monocle (2014)}{34}{subsubsection.3.3.0.1}% 
+\contentsline {subsubsection}{\numberline {3.3.0.2}Monocle 2 (2017)}{34}{subsubsection.3.3.0.2}% 
+\contentsline {subsubsection}{\numberline {3.3.0.3}Comparing dimensionality reduction and TA choices}{35}{subsubsection.3.3.0.3}% 
+\contentsline {subsubsection}{\numberline {3.3.0.4}Velocyto (2018)}{35}{subsubsection.3.3.0.4}% 
+\contentsline {subsubsection}{\numberline {3.3.0.5}scVelo (2020)}{36}{subsubsection.3.3.0.5}% 
+\contentsline {section}{\numberline {3.4}Main pitfalls/challenges in current scRNA-Seq}{36}{section.3.4}% 
+\contentsline {chapter}{\numberline {4}Single cell multimodal omics}{37}{chapter.4}% 
+\contentsline {subsection}{\numberline {4.0.1}Single-cell multiomic profiling}{37}{subsection.4.0.1}% 
+\contentsline {section}{\numberline {4.1}Transcriptome \& proteome}{37}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}DNA barcoded antibodies used in single-cell multiomics}{37}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}CITE-seq (Cellular Indexing of Transcriptomes and Epitopes) (2017)}{38}{subsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.1.3}2018: Cell Hashing with barcoded antibodies}{38}{subsection.4.1.3}% 
+\contentsline {subsection}{\numberline {4.1.4}Single-cell mass-spectrometry approaches (proteome only)}{38}{subsection.4.1.4}% 
+\contentsline {section}{\numberline {4.2}Transcriptome \& genome}{39}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}DR-seq (2015)}{39}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}G\&T-seq}{39}{subsection.4.2.2}% 
+\contentsline {subsection}{\numberline {4.2.3}Physical separation of the nucleus and cytoplasm}{41}{subsection.4.2.3}% 
+\contentsline {subsection}{\numberline {4.2.4}Genotyping of Transcriptomes (GoT) (2019)}{41}{subsection.4.2.4}% 
+\contentsline {subsection}{\numberline {4.2.5}Adaptive immune response}{41}{subsection.4.2.5}% 
+\contentsline {subsubsection}{\numberline {4.2.5.1}Immune profiling protocol}{42}{subsubsection.4.2.5.1}% 
+\contentsline {section}{\numberline {4.3}Transcriptome \& epigenome}{42}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}DNA methylation}{42}{subsection.4.3.1}% 
+\contentsline {subsubsection}{\numberline {4.3.1.1}scM\&T-seq (2016)}{43}{subsubsection.4.3.1.1}% 
+\contentsline {subsection}{\numberline {4.3.2}Chromatin accessibility}{43}{subsection.4.3.2}% 
+\contentsline {subsubsection}{\numberline {4.3.2.1}ATAC-seq (2013)}{43}{subsubsection.4.3.2.1}% 
+\contentsline {subsubsection}{\numberline {4.3.2.2}Single cell ATAC-seq (2015)}{44}{subsubsection.4.3.2.2}% 
+\contentsline {subsubsection}{\numberline {4.3.2.3}Peak calling}{44}{subsubsection.4.3.2.3}% 
+\contentsline {subsubsection}{\numberline {4.3.2.4}Enrichment}{45}{subsubsection.4.3.2.4}% 
+\contentsline {subsection}{\numberline {4.3.3}SNARE-seq (2019)}{45}{subsection.4.3.3}% 
+\contentsline {section}{\numberline {4.4}Transcriptome \& ``CRISPR'' perturbations}{47}{section.4.4}% 
+\contentsline {subsection}{\numberline {4.4.1}Perturb-seq (2016)}{47}{subsection.4.4.1}% 
+\contentsline {subsection}{\numberline {4.4.2}CRISP-seq (2016)}{48}{subsection.4.4.2}% 
+\contentsline {subsubsection}{\numberline {4.4.2.1}10x CRISPR screen}{48}{subsubsection.4.4.2.1}% 
+\contentsline {section}{\numberline {4.5}Challenges and opportunities in single-cell multimodal omics}{48}{section.4.5}% 
+\contentsline {chapter}{\numberline {5}Spatial omics}{50}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Spatial Transcriptomics}{50}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Sequencing-based methods}{50}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}Spatial transcriptomics (2016)}{51}{subsection.5.2.1}% 
+\contentsline {subsection}{\numberline {5.2.2}10x Visium platform for spatial gene expression (2019)}{51}{subsection.5.2.2}% 
+\contentsline {subsection}{\numberline {5.2.3}Slide-seq (2019)}{51}{subsection.5.2.3}% 
+\contentsline {subsection}{\numberline {5.2.4}DBiT-seq (2020)}{51}{subsection.5.2.4}% 
+\contentsline {subsection}{\numberline {5.2.5}Seq-scope (2021)}{52}{subsection.5.2.5}% 
+\contentsline {subsection}{\numberline {5.2.6}SiT (2022)}{52}{subsection.5.2.6}% 
+\contentsline {section}{\numberline {5.3}Imaging based methods}{53}{section.5.3}% 
+\contentsline {subsection}{\numberline {5.3.1}In-Situ Hybridization}{53}{subsection.5.3.1}% 
+\contentsline {subsubsection}{\numberline {5.3.1.1}Radioactive ISH (1967)}{53}{subsubsection.5.3.1.1}% 
+\contentsline {subsubsection}{\numberline {5.3.1.2}FISH (1997)}{53}{subsubsection.5.3.1.2}% 
+\contentsline {subsubsection}{\numberline {5.3.1.3}\textbf {Whole mount ISH (1989)}}{53}{subsubsection.5.3.1.3}% 
+\contentsline {subsubsection}{\numberline {5.3.1.4}RNA \textbf {smFISH (2002)}}{53}{subsubsection.5.3.1.4}% 
+\contentsline {subsubsection}{\numberline {5.3.1.5}\textbf {MERFISH (2015)}}{54}{subsubsection.5.3.1.5}% 
+\contentsline {subsubsection}{\numberline {5.3.1.6}\textbf {RNA seqFISH+ (2019)}}{55}{subsubsection.5.3.1.6}% 
+\contentsline {subsubsection}{\numberline {5.3.1.7}MERSCOPE platform (2021)}{55}{subsubsection.5.3.1.7}% 
+\contentsline {subsubsection}{\numberline {5.3.1.8}\textbf {10x Xenium platform (2023)}}{55}{subsubsection.5.3.1.8}% 
+\contentsline {subsubsection}{\numberline {5.3.1.9}AKOYA platform (2021)}{56}{subsubsection.5.3.1.9}% 
+\contentsline {subsection}{\numberline {5.3.2}Summary}{56}{subsection.5.3.2}% 
+\contentsline {section}{\numberline {5.4}Spatial omics analysis}{56}{section.5.4}% 
+\contentsline {subsection}{\numberline {5.4.1}Deconvolution of low-resolution multi-cell spots}{56}{subsection.5.4.1}% 
+\contentsline {subsection}{\numberline {5.4.2}Cell segmentation in imaging-based methods}{57}{subsection.5.4.2}% 
+\contentsline {subsection}{\numberline {5.4.3}Inference of Cell-cell communication}{57}{subsection.5.4.3}% 
+\contentsline {subsubsection}{\numberline {5.4.3.1}CellPhoneDB}{58}{subsubsection.5.4.3.1}% 
+\contentsline {subsection}{\numberline {5.4.4}Integration between single cell and spatial omics}{58}{subsection.5.4.4}% 
+\contentsline {subsection}{\numberline {5.4.5}Spatal omics reference atlases}{58}{subsection.5.4.5}% 
