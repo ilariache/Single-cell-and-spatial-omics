@@ -81,8 +81,12 @@ differentiation stages (e.g.~olfactory progenitors (OPCs) and mature
 sensory neurons (OSNs)) → ideal system to test. The material was
 amplified with PCR and analyzed through an Affymetrix microarray.
 
-\emph{Find the number of genes that were used:} Affymetrix Mu11K
-high-density oligonucleotide arrays containing 13027 probe sets.
+\begin{tcolorbox}
+[width=\linewidth, sharp corners=all, colback=white!95!black]
+
+\textbf{RQ: }\emph{Find the number of genes that were used:} 
+Affymetrix Mu11K high-density oligonucleotide arrays containing 13027 probe sets.
+\end{tcolorbox}
 
 \begin{figure}
 \centering
@@ -348,6 +352,7 @@ difference showing significantly different expression.
   Classification performance of the AB and P1 blastomeres.
 \end{enumerate}
 
+
 \textbf{Pros:}
 
 \begin{itemize}
@@ -372,8 +377,8 @@ difference showing significantly different expression.
   mRNAs without poly(A) tails, such as histone mRNAs, will not be
   detected by our mRNA-Seq assay
 \item
-  for most of the mRNAs longer than 3 kb, the 5\' end that is more than 3
-  kb away from the 3\' end of the mRNA will not be detected
+  for most of the mRNAs longer than 3 kb, the 5' end that is more than 3
+  kb away from the 3' end of the mRNA will not be detected
 \item
   the assay uses double-stranded cDNAs but cannot discriminate between
   sense and antisense transcripts
@@ -420,7 +425,7 @@ Advantages:
   \textbf{High coverage} across transcripts (recovery of full-length
   cDNAs)
 \item
-  High level of mappable reads per cell (up to 106)
+  High level of mappable reads per cell (up to $10^6$)
 \end{itemize}
 
 Limitations:
@@ -432,7 +437,7 @@ Limitations:
 \item
   inability to detect nonpolyadenylated (polyA) RNA
 \item
-  low number of cells (\textless{} 103)
+  low number of cells ($< 10^3$)
 \end{itemize}
 
 \begin{tcolorbox}
@@ -441,7 +446,7 @@ Limitations:
 \textbf{RQ: } \emph{What is the important step to obtain full length coverage?}
 
 \textbf{Template switching} allows for the capture of full cDNA
-sequences, for which the 5\' end is unknown, in a relatively sensitive
+sequences, for which the 5' end is unknown, in a relatively sensitive
 manner. Poly(A)+ RNA is converted to full-length cDNA using oligo(dT)
 priming and SMART template switching technology. In addition, KAPA
 preamplification improves cDNA generation, allowing for the detection of
@@ -463,7 +468,7 @@ Advantages:
 \item
   Suitable for \textbf{isoform}/allele analysis
 \item
-  High level of mappable reads per cell (up to 106)
+  High level of mappable reads per cell (up to $10^6$)
 \end{itemize}
 
 Limitations:
@@ -473,7 +478,7 @@ Limitations:
 \item
   inability to detect nonpolyadenylated (polyA) RNA.
 \item
-  low number of cells (\textless{} 103,104)
+  low number of cells ($10^3,10^4$)
 \end{itemize}
 
 \hypertarget{method-of-the-year-2013}{%
@@ -506,7 +511,7 @@ used to introduce a PCR handle downstream of the synthesized cDNA.
 
 \textbf{Barcoding:} sequence of primers on the microparticle. The
 primers on all beads contain a common sequence (``PCR handle'') for PCR
-amplification. Each microparticle contains more than 10\^{}8 individual
+amplification. Each microparticle contains more than $10^8$ individual
 primers that share the same ``cell barcode'' but have different
 \textbf{unique molecular identifiers} (UMIs), enabling mRNA transcripts
 to be digitally counted. A 30-bp oligo dT sequence is present at the end
@@ -517,7 +522,7 @@ Pros:
 \begin{itemize}
 \tightlist
 \item
-  From hundreds to thousands cells (10\^{}4)
+  From hundreds to thousands cells ($10^4$)
 \item
   3' end sequencing
 \item
@@ -537,10 +542,10 @@ is to distinguish between:
 \tightlist
 \item
   amplified copies of the same mRNA molecule (same cDNA sequence, same
-  UMI -\textgreater{} technical duplicates, removed)
+  UMI → technical duplicates, removed)
 \item
   reads from separate mRNA molecules transcribed from the same gene
-  (same cDNA, different UMI -\textgreater{} biological duplicates, kept)
+  (same cDNA, different UMI → biological duplicates, kept)
 \end{itemize}
 
 UMIs reduce the amplification noise by allowing the removal of
@@ -549,7 +554,7 @@ amplification (PCR) duplicates.
 \begin{figure}
 \centering
 \includegraphics[width=0.5\textwidth]{images/Screen_Shot_2023-02-21_at_19-54-26.png}
-\caption{Screen Shot 2023-02-21 at 19-54-26.png}
+\caption{Macosko et al., Cell 2015}
 \end{figure}
 
 \hypertarget{cell-cycle-analysis}{%
@@ -655,8 +660,8 @@ population.
 \hypertarget{human-cell-atlas-2016}{%
 \subsection{Human Cell Atlas (2016)}\label{human-cell-atlas-2016}}
 
-\textbf{International group of researchers (}2,300 members, 83
-countries\textbf{)} use a combination of single-cell and spatial omics
+International group of researchers (2,300 members, 83
+countries) use a combination of single-cell and spatial omics
 technologies to create \textbf{cellular reference maps} with the
 position, function, and characteristics of \textbf{every cell type in
 the human body}.
@@ -685,8 +690,8 @@ Through Chromium, cell encapsulation of up to 8 samples at a time takes
 place in 6 minutes, with 50\% cell capture efficiency.
 
 Thanks to this technique, it is possible to detect distinct populations
-in peripheral blood mononuclear cells. PBMC: remove cell without nuclei
-and with multinuclei (granulocytes) → consists mainly of \ldots{}
+in peripheral blood mononuclear cells. PBMC: remove cell without nuclei (erythrocytes and platelets)
+and with multinuclei (granulocytes) to remain with lymphocytes (T cells, B cells, NK cells) and monocytes.
 
 \hypertarget{genotype-and-single-cell-expression-analysis-of-transplant-bmmcs-bone-marrow-mononuclear-cells}{%
 \subsubsection{``Genotype'' and single-cell expression analysis of
@@ -695,7 +700,7 @@ Cells)}\label{genotype-and-single-cell-expression-analysis-of-transplant-bmmcs-b
 
 Standard treatment in AML involves transplant from a healthy donor. The
 analysis profiles bone marrow samples from AML patients and healthy
-patients and compare profiles before and after transplant. The authors
+patients and compares profiles before and after transplant. The authors
 built a method based on SNV identification able to distinguish cells
 from donor and from host. The main idea involved checking whether the
 transplant was modifying differentiation patterns in bone marrow; indeed
@@ -723,7 +728,7 @@ typical signature of AML persists.
 
 SPLiT-seq does not require partitioning single cells into individual
 compartments (droplets, microwells, or wells) but relies on the cells
-themselves as compartments. Passing a suspension of formaldehyde-fixed
+themselves as compartments.  The technique starts by passing a suspension of formaldehyde-fixed
 cells or nuclei through four rounds of combinatorial barcoding in 96
 wells plates. After sequencing, each transcriptome is assembled by
 combining reads containing the same four-barcode combination (21M
@@ -757,7 +762,7 @@ reasonable trend.
 
 \begin{figure}
 \centering
-\includegraphics[width=0.3\textwidth]{images/Screenshot_2023-03-24_at_08-21-13.png}
+\includegraphics[width=0.5\textwidth]{images/Screenshot_2023-03-24_at_08-21-13.png}
 \caption{\emph{Rosenberg et al, Science 2018}}
 \end{figure}
 
@@ -773,7 +778,7 @@ added to cDNA molecules by PCR during sequencing library preparation.
 
 \begin{figure}
 \centering
-\includegraphics[width=0.5\textwidth]{images/Screenshot_2023-03-24_at_08-04-47.png}
+\includegraphics[width=0.3\textwidth]{images/Screenshot_2023-03-24_at_08-04-47.png}
 \caption{\emph{Rosenberg et al, Science 2018}}
 \end{figure}
 

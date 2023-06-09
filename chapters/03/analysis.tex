@@ -340,7 +340,7 @@ there is more stability with respect to t-SNE.
 \begin{figure}
 \centering
 \includegraphics[width=0.5\textwidth]{images/Screen_Shot_2023-02-22_at_15-18-21.png}
-\caption{Screen Shot 2023-02-22 at 15-18-21.png}
+\caption{}
 \end{figure}
 
 \hypertarget{clustering}{%
@@ -357,14 +357,14 @@ single cell data e.g.~hierarchical clustering, K-means or graph-based
 approaches (most used as they are particularly suited for high
 dimensional data). The aim is to identify highly interconnected
 communities within the population. Algorithms identify the edges that,
-when remove, result in a higher difference among groups. It is possible
-to weight edges according to cell similarity e.g.~Euclidean distance or
-according to their neighbourhood e.g.~if they share neighbouring points.
+when removed, result in a higher difference among groups. It is possible
+to weight edges according to cell similarity e.g.Euclidean distance or
+according to their neighbourhood if they share neighbouring points.
 
 In \textbf{graph-based approaches}, each node is a cell connected to its
 nearest neighbors in the high-dimensional space. Edges are weighted
 based on the similarity between the 2 cells. The strategy focuses on
-identify ``communities'' of cells that are more connected to cells in
+identifying ``communities'' of cells that are more connected to cells in
 the same community than they are to cells of different communities. A
 popular approach is the Louvain method for community detection.
 
@@ -385,9 +385,8 @@ cluster markers, we can apply:
   binomial models)
 \end{itemize}
 
-Transform negative binomial to zero inflated negative binomial to
-account for the high presence of zeroes in the matrix. {[}!added
-slide{]}
+It is possible to transform negative binomial to zero inflated negative binomial to
+account for the high presence of zeroes in the matrix. 
 
 \begin{itemize}
 \tightlist
@@ -395,7 +394,7 @@ slide{]}
   methods developed for single cell (dealing with the excess of 0s)
 \end{itemize}
 
-In Seurat package we have the \ldots{} function with default Wilcoxon,
+In Seurat package we have the FindAllMarkers function that applies Wilcoxon by default,
 but it is possible to use other methods e.g.~ROC curve with marker
 genes.
 
@@ -548,7 +547,7 @@ Canonical Correlation Analysis is a linear method for dimensionality
 reduction which can be compared to PCA, as it is also a linear
 combination. Differently from PCA, the components will maximize the
 correlation between two dataset. We can visualize the output of the two
-methods on the same dataset in Figure \ldots{}
+methods on the same dataset in Figure 3.7 .
 
 \hypertarget{trajectory-analysis}{%
 \section{Trajectory analysis}\label{trajectory-analysis}}

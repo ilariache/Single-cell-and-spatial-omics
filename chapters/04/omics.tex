@@ -17,16 +17,16 @@ profiling}\label{single-cell-multiomic-profiling}}
 
 Linking measurements from different omics layers has the potential to
 reveal regulatory and functional mechanisms underlying cell behaviour in
-healthy development and disease. In Figure \ldots, we can observe the
+healthy development and disease. In Figure 4.1, we can observe the
 possible connections among omics techniques and their interplay in
 determining cell phenotype and functional potential as well as molecular
 cell identity.
 
-%\begin{figure}
-%\centering
-%\includegraphics[width=0.5\textwidth]{images/Screenshot.png}
-%\caption{Screenshot.png}
-%\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{images/Screenshot.png}
+\caption{}
+\end{figure}
 
 \hypertarget{transcriptome-proteome}{%
 \section{Transcriptome \& proteome}\label{transcriptome-proteome}}
@@ -37,27 +37,16 @@ regulation). In addition, there is no method for protein sequence
 amplification (measurements are dependent on antibody-based detection or
 mass spectrometry).
 
-\hypertarget{dna-barcoded-antibodies-used-in-single-cell-multiomics}{%
-\subsection{DNA barcoded antibodies used in
-single-cell
-multiomics}\label{dna-barcoded-antibodies-used-in-single-cell-multiomics}}
-
-The use of \textbf{DNA-barcoded antibodies} is applied to convert the
-detection of proteins into a quantitative and sequenceable readout.
-Antibody-derived tags (\textbf{ADT}) act as \textbf{synthetic
-transcripts,} captured during oligodT-based scRNA- seq library
-preparation protocols (e.g.~10x, Drop-seq). Cells labelled with panels
-of antibodies, each tagged with a specific ADT, \textbf{captured in
-parallel with the mRNA from the same cell} following lysis.
-
 \hypertarget{cite-seq-cellular-indexing-of-transcriptomes-and-epitopes-2017}{%
 \subsection{CITE-seq (Cellular Indexing of Transcriptomes and Epitopes)
 (2017)}\label{cite-seq-cellular-indexing-of-transcriptomes-and-epitopes-2017}}
 
-CITE-seq uses DNA-barcoded antibodies to convert detection of proteins
+CITE-seq uses \textbf{DNA-barcoded antibodies} to convert detection of proteins
 into a quantitative, sequenceable readout. Antibody-bound oligos act as
 synthetic transcripts that are captured during most large-scale oligo
-dT-based scRNA-seq library preparation protocols.
+dT-based scRNA-seq library preparation protocols (e.g.~10x, Drop-seq). Cells labelled with panels
+of antibodies, each tagged with a specific ADT (antibody derived tag),  are \textbf{captured in
+parallel with the mRNA from the same cell} following lysis.
 
 \begin{figure}
 \centering
@@ -65,24 +54,18 @@ dT-based scRNA-seq library preparation protocols.
 \caption{cite-seq.com}
 \end{figure}
 
-cite-seq.com
-
 \textbf{Pros:} immuno-phenotyping of cells allows a potentially
 limitless number of markers unbiased transcriptome analysis.
 
 \textbf{Cons:} specific antibodies necessary, for surface protein
 markers
 
-Transcriptome-based clustering of 8,005 CITE-seq single-cell expression
-profiles of Cord Blood Mononuclear Cells (library of 13 markers) ADT:
-antibody-derived tags.
-
 \hypertarget{cell-hashing-with-barcoded-antibodies}{%
-\subsection{2018: Cell Hashing with barcoded
-antibodies}\label{cell-hashing-with-barcoded-antibodies}}
+\subsection{Cell Hashing with barcoded
+antibodies (2018) }\label{cell-hashing-with-barcoded-antibodies}}
 
 Oligo-tagged antibodies against \textbf{ubiquitously expressed} surface
-proteins.Label cells from distinct samples, which can be \textbf{pooled}
+proteins. Label cells from distinct samples, which can be \textbf{pooled}
 (cost reduction). \textbf{Detection of doublets} between samples (or
 within a sample, if used without pooling).
 
@@ -205,7 +188,7 @@ Smart-seq2 protocol.
 The method was applied to differentiated neurons derived form trisomy 21
 induced pluripotent stem cells and control disomy 21 iPSCs. By visual
 inspection, we can clearly see a gain in chromosome 21 with respect to
-control, even though some error is identified (\ldots). The positive
+control, even though some error is identified. The positive
 result is that chromosome 21 genes are more expressed with respect to
 control. Transcriptomics variation was also observed in other autosomes,
 which could be due to both biological and technical variation.
@@ -328,7 +311,7 @@ distinguish methylated from unmethylated cytosines.
 \hypertarget{scmt-seq-2016}{%
 \subsubsection{scM\&T-seq (2016)}\label{scmt-seq-2016}}
 
-Single-cell methylome \& transcirptome is a derivation of G\&T-seq,
+Single-cell methylome \& transcriptome is a derivation of G\&T-seq,
 based on the physical separation of DNA and RNA:
 
 \begin{itemize}
@@ -419,7 +402,6 @@ designed for transposase adapters).
 \caption{\emph{Buenrostro et al, Nature 2015}}
 \end{figure}
 
-\emph{Buenrostro et al, Nature 2015}
 
 \hypertarget{peak-calling}{%
 \subsubsection{Peak calling}\label{peak-calling}}
@@ -505,10 +487,8 @@ clusters.
 \begin{figure}
 \centering
 \includegraphics[width=0.5\textwidth]{images/Screenshot_10.png}
-\caption{\textbf{\emph{Chen et al, Nature Biotechnology 2019}}}
+\caption{Chen et al, Nature Biotechnology 2019}
 \end{figure}
-
-\textbf{\emph{Chen et al, Nature Biotechnology 2019}}
 
 10x method for simultaneous detection of gene expression and chromatin
 state from the same cell can aid in identifying activation of gene
@@ -522,8 +502,6 @@ with the presence of accessible peaks in clusters.
 \includegraphics[width=0.5\textwidth]{images/Screenshot_11.png}
 \caption{\emph{https://www.10xgenomics.com}}
 \end{figure}
-
-\emph{https://www.10xgenomics.com}
 
 \hypertarget{transcriptome-crispr-perturbations}{%
 \section{Transcriptome \& ``CRISPR''
