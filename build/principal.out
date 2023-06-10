@@ -1,75 +1,75 @@
-\BOOKMARK [0][-]{chapter.1}{Evolution of single cell}{}% 1
-\BOOKMARK [1][-]{section.1.1}{The history of sequencing}{chapter.1}% 2
-\BOOKMARK [2][-]{subsection.1.1.1}{Analysis of gene expression in single neurons \(1992\)}{section.1.1}% 3
-\BOOKMARK [2][-]{subsection.1.1.2}{Single-cell transcriptional analysis of neuronal progenitors \(2003\)}{section.1.1}% 4
-\BOOKMARK [2][-]{subsection.1.1.3}{mRNA-Seq whole-transcriptome analysis of a single cell \(2009\)}{section.1.1}% 5
-\BOOKMARK [2][-]{subsection.1.1.4}{Characterization of the single-cell transcriptional landscape by highly multiplex RNA-seq \(2011\)}{section.1.1}% 6
-\BOOKMARK [2][-]{subsection.1.1.5}{CEL-Seq: Single-Cell RNA-Seq by Multiplexed Linear Amplification \(2012\)}{section.1.1}% 7
-\BOOKMARK [2][-]{subsection.1.1.6}{SMART-seq}{section.1.1}% 8
-\BOOKMARK [2][-]{subsection.1.1.7}{Method of the year \(2013\)}{section.1.1}% 9
-\BOOKMARK [2][-]{subsection.1.1.8}{Drop-seq \(2015\)}{section.1.1}% 10
-\BOOKMARK [2][-]{subsection.1.1.9}{Human Cell Atlas \(2016\)}{section.1.1}% 11
-\BOOKMARK [2][-]{subsection.1.1.10}{10X Genomics \(2016-2017\)}{section.1.1}% 12
-\BOOKMARK [2][-]{subsection.1.1.11}{SPLiT-seq \(2018\)}{section.1.1}% 13
-\BOOKMARK [1][-]{section.1.2}{Comparison of scRNA-seq preparation}{chapter.1}% 14
-\BOOKMARK [0][-]{chapter.2}{scRNA-seq backstage}{}% 15
-\BOOKMARK [1][-]{section.2.1}{Challenges in single cell workflow}{chapter.2}% 16
-\BOOKMARK [2][-]{subsection.2.1.1}{Sources of experimental variability}{section.2.1}% 17
-\BOOKMARK [2][-]{subsection.2.1.2}{Single-cell suspension}{section.2.1}% 18
-\BOOKMARK [2][-]{subsection.2.1.3}{Single cell sorting}{section.2.1}% 19
-\BOOKMARK [2][-]{subsection.2.1.4}{Sample collection and preservation}{section.2.1}% 20
-\BOOKMARK [1][-]{section.2.2}{10xGenomics}{chapter.2}% 21
-\BOOKMARK [2][-]{subsection.2.2.1}{Feature barcode technology}{section.2.2}% 22
-\BOOKMARK [2][-]{subsection.2.2.2}{Single cell gene expression workflow}{section.2.2}% 23
-\BOOKMARK [2][-]{subsection.2.2.3}{Chip-based single cell separator}{section.2.2}% 24
-\BOOKMARK [2][-]{subsection.2.2.4}{HIVE scRNAseq Solution}{section.2.2}% 25
-\BOOKMARK [0][-]{chapter.3}{Analysis and interpretation of single cell sequencing data}{}% 26
-\BOOKMARK [1][-]{section.3.1}{Pre-processing}{chapter.3}% 27
-\BOOKMARK [2][-]{subsection.3.1.1}{From raw reads to count matrices}{section.3.1}% 28
-\BOOKMARK [2][-]{subsection.3.1.2}{Quality control}{section.3.1}% 29
-\BOOKMARK [2][-]{subsection.3.1.3}{Normalization}{section.3.1}% 30
-\BOOKMARK [1][-]{section.3.2}{Analysis}{chapter.3}% 31
-\BOOKMARK [2][-]{subsection.3.2.1}{Dimensionality reduction}{section.3.2}% 32
-\BOOKMARK [2][-]{subsection.3.2.2}{Clustering}{section.3.2}% 33
-\BOOKMARK [2][-]{subsection.3.2.3}{Cell type annotation}{section.3.2}% 34
-\BOOKMARK [2][-]{subsection.3.2.4}{Integration of single cell datasets}{section.3.2}% 35
-\BOOKMARK [1][-]{section.3.3}{Trajectory analysis}{chapter.3}% 36
-\BOOKMARK [1][-]{section.3.4}{Main pitfalls/challenges in current scRNA-Seq}{chapter.3}% 37
-\BOOKMARK [0][-]{chapter.4}{Single cell multimodal omics}{}% 38
-\BOOKMARK [1][-]{subsection.4.0.1}{Single-cell multiomic profiling}{chapter.4}% 39
-\BOOKMARK [1][-]{section.4.1}{Transcriptome \046 proteome}{chapter.4}% 40
-\BOOKMARK [2][-]{subsection.4.1.1}{CITE-seq \(Cellular Indexing of Transcriptomes and Epitopes\) \(2017\)}{section.4.1}% 41
-\BOOKMARK [2][-]{subsection.4.1.2}{Cell Hashing with barcoded antibodies \(2018\) }{section.4.1}% 42
-\BOOKMARK [2][-]{subsection.4.1.3}{Single-cell mass-spectrometry approaches \(proteome only\)}{section.4.1}% 43
-\BOOKMARK [1][-]{section.4.2}{Transcriptome \046 genome}{chapter.4}% 44
-\BOOKMARK [2][-]{subsection.4.2.1}{DR-seq \(2015\)}{section.4.2}% 45
-\BOOKMARK [2][-]{subsection.4.2.2}{G\046T-seq}{section.4.2}% 46
-\BOOKMARK [2][-]{subsection.4.2.3}{Physical separation of the nucleus and cytoplasm}{section.4.2}% 47
-\BOOKMARK [2][-]{subsection.4.2.4}{Genotyping of Transcriptomes \(GoT\) \(2019\)}{section.4.2}% 48
-\BOOKMARK [2][-]{subsection.4.2.5}{Adaptive immune response}{section.4.2}% 49
-\BOOKMARK [1][-]{section.4.3}{Transcriptome \046 epigenome}{chapter.4}% 50
-\BOOKMARK [2][-]{subsection.4.3.1}{DNA methylation}{section.4.3}% 51
-\BOOKMARK [2][-]{subsection.4.3.2}{Chromatin accessibility}{section.4.3}% 52
-\BOOKMARK [2][-]{subsection.4.3.3}{SNARE-seq \(2019\)}{section.4.3}% 53
-\BOOKMARK [1][-]{section.4.4}{Transcriptome \046 ``CRISPR'' perturbations}{chapter.4}% 54
-\BOOKMARK [2][-]{subsection.4.4.1}{Perturb-seq \(2016\)}{section.4.4}% 55
-\BOOKMARK [2][-]{subsection.4.4.2}{CRISP-seq \(2016\)}{section.4.4}% 56
-\BOOKMARK [1][-]{section.4.5}{Challenges and opportunities in single-cell multimodal omics}{chapter.4}% 57
-\BOOKMARK [0][-]{chapter.5}{Spatial omics}{}% 58
-\BOOKMARK [1][-]{section.5.1}{Spatial Transcriptomics}{chapter.5}% 59
-\BOOKMARK [1][-]{section.5.2}{Sequencing-based methods}{chapter.5}% 60
-\BOOKMARK [2][-]{subsection.5.2.1}{Spatial transcriptomics \(2016\)}{section.5.2}% 61
-\BOOKMARK [2][-]{subsection.5.2.2}{10x Visium platform for spatial gene expression \(2019\)}{section.5.2}% 62
-\BOOKMARK [2][-]{subsection.5.2.3}{Slide-seq \(2019\)}{section.5.2}% 63
-\BOOKMARK [2][-]{subsection.5.2.4}{DBiT-seq \(2020\)}{section.5.2}% 64
-\BOOKMARK [2][-]{subsection.5.2.5}{Seq-scope \(2021\)}{section.5.2}% 65
-\BOOKMARK [2][-]{subsection.5.2.6}{SiT \(2022\)}{section.5.2}% 66
-\BOOKMARK [1][-]{section.5.3}{Imaging based methods}{chapter.5}% 67
-\BOOKMARK [2][-]{subsection.5.3.1}{In-Situ Hybridization}{section.5.3}% 68
-\BOOKMARK [2][-]{subsection.5.3.2}{Summary}{section.5.3}% 69
-\BOOKMARK [1][-]{section.5.4}{Spatial omics analysis}{chapter.5}% 70
-\BOOKMARK [2][-]{subsection.5.4.1}{Deconvolution of low-resolution multi-cell spots}{section.5.4}% 71
-\BOOKMARK [2][-]{subsection.5.4.2}{Cell segmentation in imaging-based methods}{section.5.4}% 72
-\BOOKMARK [2][-]{subsection.5.4.3}{Inference of Cell-cell communication}{section.5.4}% 73
-\BOOKMARK [2][-]{subsection.5.4.4}{Integration between single cell and spatial omics}{section.5.4}% 74
-\BOOKMARK [2][-]{subsection.5.4.5}{Spatal omics reference atlases}{section.5.4}% 75
+\BOOKMARK [0][-]{chapter.1}{\376\377\000E\000v\000o\000l\000u\000t\000i\000o\000n\000\040\000o\000f\000\040\000s\000i\000n\000g\000l\000e\000\040\000c\000e\000l\000l}{}% 1
+\BOOKMARK [1][-]{section.1.1}{\376\377\000T\000h\000e\000\040\000h\000i\000s\000t\000o\000r\000y\000\040\000o\000f\000\040\000s\000e\000q\000u\000e\000n\000c\000i\000n\000g}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.1.1}{\376\377\000A\000n\000a\000l\000y\000s\000i\000s\000\040\000o\000f\000\040\000g\000e\000n\000e\000\040\000e\000x\000p\000r\000e\000s\000s\000i\000o\000n\000\040\000i\000n\000\040\000s\000i\000n\000g\000l\000e\000\040\000n\000e\000u\000r\000o\000n\000s\000\040\000\050\0001\0009\0009\0002\000\051}{section.1.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.2}{\376\377\000S\000i\000n\000g\000l\000e\000-\000c\000e\000l\000l\000\040\000t\000r\000a\000n\000s\000c\000r\000i\000p\000t\000i\000o\000n\000a\000l\000\040\000a\000n\000a\000l\000y\000s\000i\000s\000\040\000o\000f\000\040\000n\000e\000u\000r\000o\000n\000a\000l\000\040\000p\000r\000o\000g\000e\000n\000i\000t\000o\000r\000s\000\040\000\050\0002\0000\0000\0003\000\051}{section.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.3}{\376\377\000m\000R\000N\000A\000-\000S\000e\000q\000\040\000w\000h\000o\000l\000e\000-\000t\000r\000a\000n\000s\000c\000r\000i\000p\000t\000o\000m\000e\000\040\000a\000n\000a\000l\000y\000s\000i\000s\000\040\000o\000f\000\040\000a\000\040\000s\000i\000n\000g\000l\000e\000\040\000c\000e\000l\000l\000\040\000\050\0002\0000\0000\0009\000\051}{section.1.1}% 5
+\BOOKMARK [2][-]{subsection.1.1.4}{\376\377\000C\000h\000a\000r\000a\000c\000t\000e\000r\000i\000z\000a\000t\000i\000o\000n\000\040\000o\000f\000\040\000t\000h\000e\000\040\000s\000i\000n\000g\000l\000e\000-\000c\000e\000l\000l\000\040\000t\000r\000a\000n\000s\000c\000r\000i\000p\000t\000i\000o\000n\000a\000l\000\040\000l\000a\000n\000d\000s\000c\000a\000p\000e\000\040\000b\000y\000\040\000h\000i\000g\000h\000l\000y\000\040\000m\000u\000l\000t\000i\000p\000l\000e\000x\000\040\000R\000N\000A\000-\000s\000e\000q\000\040\000\050\0002\0000\0001\0001\000\051}{section.1.1}% 6
+\BOOKMARK [2][-]{subsection.1.1.5}{\376\377\000C\000E\000L\000-\000S\000e\000q\000:\000\040\000S\000i\000n\000g\000l\000e\000-\000C\000e\000l\000l\000\040\000R\000N\000A\000-\000S\000e\000q\000\040\000b\000y\000\040\000M\000u\000l\000t\000i\000p\000l\000e\000x\000e\000d\000\040\000L\000i\000n\000e\000a\000r\000\040\000A\000m\000p\000l\000i\000f\000i\000c\000a\000t\000i\000o\000n\000\040\000\050\0002\0000\0001\0002\000\051}{section.1.1}% 7
+\BOOKMARK [2][-]{subsection.1.1.6}{\376\377\000S\000M\000A\000R\000T\000-\000s\000e\000q}{section.1.1}% 8
+\BOOKMARK [2][-]{subsection.1.1.7}{\376\377\000M\000e\000t\000h\000o\000d\000\040\000o\000f\000\040\000t\000h\000e\000\040\000y\000e\000a\000r\000\040\000\050\0002\0000\0001\0003\000\051}{section.1.1}% 9
+\BOOKMARK [2][-]{subsection.1.1.8}{\376\377\000D\000r\000o\000p\000-\000s\000e\000q\000\040\000\050\0002\0000\0001\0005\000\051}{section.1.1}% 10
+\BOOKMARK [2][-]{subsection.1.1.9}{\376\377\000H\000u\000m\000a\000n\000\040\000C\000e\000l\000l\000\040\000A\000t\000l\000a\000s\000\040\000\050\0002\0000\0001\0006\000\051}{section.1.1}% 11
+\BOOKMARK [2][-]{subsection.1.1.10}{\376\377\0001\0000\000X\000\040\000G\000e\000n\000o\000m\000i\000c\000s\000\040\000\050\0002\0000\0001\0006\000-\0002\0000\0001\0007\000\051}{section.1.1}% 12
+\BOOKMARK [2][-]{subsection.1.1.11}{\376\377\000S\000P\000L\000i\000T\000-\000s\000e\000q\000\040\000\050\0002\0000\0001\0008\000\051}{section.1.1}% 13
+\BOOKMARK [1][-]{section.1.2}{\376\377\000C\000o\000m\000p\000a\000r\000i\000s\000o\000n\000\040\000o\000f\000\040\000s\000c\000R\000N\000A\000-\000s\000e\000q\000\040\000p\000r\000e\000p\000a\000r\000a\000t\000i\000o\000n}{chapter.1}% 14
+\BOOKMARK [0][-]{chapter.2}{\376\377\000s\000c\000R\000N\000A\000-\000s\000e\000q\000\040\000b\000a\000c\000k\000s\000t\000a\000g\000e}{}% 15
+\BOOKMARK [1][-]{section.2.1}{\376\377\000C\000h\000a\000l\000l\000e\000n\000g\000e\000s\000\040\000i\000n\000\040\000s\000i\000n\000g\000l\000e\000\040\000c\000e\000l\000l\000\040\000w\000o\000r\000k\000f\000l\000o\000w}{chapter.2}% 16
+\BOOKMARK [2][-]{subsection.2.1.1}{\376\377\000S\000o\000u\000r\000c\000e\000s\000\040\000o\000f\000\040\000e\000x\000p\000e\000r\000i\000m\000e\000n\000t\000a\000l\000\040\000v\000a\000r\000i\000a\000b\000i\000l\000i\000t\000y}{section.2.1}% 17
+\BOOKMARK [2][-]{subsection.2.1.2}{\376\377\000S\000i\000n\000g\000l\000e\000-\000c\000e\000l\000l\000\040\000s\000u\000s\000p\000e\000n\000s\000i\000o\000n}{section.2.1}% 18
+\BOOKMARK [2][-]{subsection.2.1.3}{\376\377\000S\000i\000n\000g\000l\000e\000\040\000c\000e\000l\000l\000\040\000s\000o\000r\000t\000i\000n\000g}{section.2.1}% 19
+\BOOKMARK [2][-]{subsection.2.1.4}{\376\377\000S\000a\000m\000p\000l\000e\000\040\000c\000o\000l\000l\000e\000c\000t\000i\000o\000n\000\040\000a\000n\000d\000\040\000p\000r\000e\000s\000e\000r\000v\000a\000t\000i\000o\000n}{section.2.1}% 20
+\BOOKMARK [1][-]{section.2.2}{\376\377\0001\0000\000x\000G\000e\000n\000o\000m\000i\000c\000s}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.1}{\376\377\000F\000e\000a\000t\000u\000r\000e\000\040\000b\000a\000r\000c\000o\000d\000e\000\040\000t\000e\000c\000h\000n\000o\000l\000o\000g\000y}{section.2.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.2}{\376\377\000S\000i\000n\000g\000l\000e\000\040\000c\000e\000l\000l\000\040\000g\000e\000n\000e\000\040\000e\000x\000p\000r\000e\000s\000s\000i\000o\000n\000\040\000w\000o\000r\000k\000f\000l\000o\000w}{section.2.2}% 23
+\BOOKMARK [2][-]{subsection.2.2.3}{\376\377\000C\000h\000i\000p\000-\000b\000a\000s\000e\000d\000\040\000s\000i\000n\000g\000l\000e\000\040\000c\000e\000l\000l\000\040\000s\000e\000p\000a\000r\000a\000t\000o\000r}{section.2.2}% 24
+\BOOKMARK [2][-]{subsection.2.2.4}{\376\377\000H\000I\000V\000E\000\040\000s\000c\000R\000N\000A\000s\000e\000q\000\040\000S\000o\000l\000u\000t\000i\000o\000n}{section.2.2}% 25
+\BOOKMARK [0][-]{chapter.3}{\376\377\000A\000n\000a\000l\000y\000s\000i\000s\000\040\000a\000n\000d\000\040\000i\000n\000t\000e\000r\000p\000r\000e\000t\000a\000t\000i\000o\000n\000\040\000o\000f\000\040\000s\000i\000n\000g\000l\000e\000\040\000c\000e\000l\000l\000\040\000s\000e\000q\000u\000e\000n\000c\000i\000n\000g\000\040\000d\000a\000t\000a}{}% 26
+\BOOKMARK [1][-]{section.3.1}{\376\377\000P\000r\000e\000-\000p\000r\000o\000c\000e\000s\000s\000i\000n\000g}{chapter.3}% 27
+\BOOKMARK [2][-]{subsection.3.1.1}{\376\377\000F\000r\000o\000m\000\040\000r\000a\000w\000\040\000r\000e\000a\000d\000s\000\040\000t\000o\000\040\000c\000o\000u\000n\000t\000\040\000m\000a\000t\000r\000i\000c\000e\000s}{section.3.1}% 28
+\BOOKMARK [2][-]{subsection.3.1.2}{\376\377\000Q\000u\000a\000l\000i\000t\000y\000\040\000c\000o\000n\000t\000r\000o\000l}{section.3.1}% 29
+\BOOKMARK [2][-]{subsection.3.1.3}{\376\377\000N\000o\000r\000m\000a\000l\000i\000z\000a\000t\000i\000o\000n}{section.3.1}% 30
+\BOOKMARK [1][-]{section.3.2}{\376\377\000A\000n\000a\000l\000y\000s\000i\000s}{chapter.3}% 31
+\BOOKMARK [2][-]{subsection.3.2.1}{\376\377\000D\000i\000m\000e\000n\000s\000i\000o\000n\000a\000l\000i\000t\000y\000\040\000r\000e\000d\000u\000c\000t\000i\000o\000n}{section.3.2}% 32
+\BOOKMARK [2][-]{subsection.3.2.2}{\376\377\000C\000l\000u\000s\000t\000e\000r\000i\000n\000g}{section.3.2}% 33
+\BOOKMARK [2][-]{subsection.3.2.3}{\376\377\000C\000e\000l\000l\000\040\000t\000y\000p\000e\000\040\000a\000n\000n\000o\000t\000a\000t\000i\000o\000n}{section.3.2}% 34
+\BOOKMARK [2][-]{subsection.3.2.4}{\376\377\000I\000n\000t\000e\000g\000r\000a\000t\000i\000o\000n\000\040\000o\000f\000\040\000s\000i\000n\000g\000l\000e\000\040\000c\000e\000l\000l\000\040\000d\000a\000t\000a\000s\000e\000t\000s}{section.3.2}% 35
+\BOOKMARK [1][-]{section.3.3}{\376\377\000T\000r\000a\000j\000e\000c\000t\000o\000r\000y\000\040\000a\000n\000a\000l\000y\000s\000i\000s}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.4}{\376\377\000M\000a\000i\000n\000\040\000p\000i\000t\000f\000a\000l\000l\000s\000/\000c\000h\000a\000l\000l\000e\000n\000g\000e\000s\000\040\000i\000n\000\040\000c\000u\000r\000r\000e\000n\000t\000\040\000s\000c\000R\000N\000A\000-\000S\000e\000q}{chapter.3}% 37
+\BOOKMARK [0][-]{chapter.4}{\376\377\000S\000i\000n\000g\000l\000e\000\040\000c\000e\000l\000l\000\040\000m\000u\000l\000t\000i\000m\000o\000d\000a\000l\000\040\000o\000m\000i\000c\000s}{}% 38
+\BOOKMARK [1][-]{subsection.4.0.1}{\376\377\000S\000i\000n\000g\000l\000e\000-\000c\000e\000l\000l\000\040\000m\000u\000l\000t\000i\000o\000m\000i\000c\000\040\000p\000r\000o\000f\000i\000l\000i\000n\000g}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.1}{\376\377\000T\000r\000a\000n\000s\000c\000r\000i\000p\000t\000o\000m\000e\000\040\000\046\000\040\000p\000r\000o\000t\000e\000o\000m\000e}{chapter.4}% 40
+\BOOKMARK [2][-]{subsection.4.1.1}{\376\377\000C\000I\000T\000E\000-\000s\000e\000q\000\040\000\050\000C\000e\000l\000l\000u\000l\000a\000r\000\040\000I\000n\000d\000e\000x\000i\000n\000g\000\040\000o\000f\000\040\000T\000r\000a\000n\000s\000c\000r\000i\000p\000t\000o\000m\000e\000s\000\040\000a\000n\000d\000\040\000E\000p\000i\000t\000o\000p\000e\000s\000\051\000\040\000\050\0002\0000\0001\0007\000\051}{section.4.1}% 41
+\BOOKMARK [2][-]{subsection.4.1.2}{\376\377\000C\000e\000l\000l\000\040\000H\000a\000s\000h\000i\000n\000g\000\040\000w\000i\000t\000h\000\040\000b\000a\000r\000c\000o\000d\000e\000d\000\040\000a\000n\000t\000i\000b\000o\000d\000i\000e\000s\000\040\000\050\0002\0000\0001\0008\000\051\000\040}{section.4.1}% 42
+\BOOKMARK [2][-]{subsection.4.1.3}{\376\377\000S\000i\000n\000g\000l\000e\000-\000c\000e\000l\000l\000\040\000m\000a\000s\000s\000-\000s\000p\000e\000c\000t\000r\000o\000m\000e\000t\000r\000y\000\040\000a\000p\000p\000r\000o\000a\000c\000h\000e\000s\000\040\000\050\000p\000r\000o\000t\000e\000o\000m\000e\000\040\000o\000n\000l\000y\000\051}{section.4.1}% 43
+\BOOKMARK [1][-]{section.4.2}{\376\377\000T\000r\000a\000n\000s\000c\000r\000i\000p\000t\000o\000m\000e\000\040\000\046\000\040\000g\000e\000n\000o\000m\000e}{chapter.4}% 44
+\BOOKMARK [2][-]{subsection.4.2.1}{\376\377\000D\000R\000-\000s\000e\000q\000\040\000\050\0002\0000\0001\0005\000\051}{section.4.2}% 45
+\BOOKMARK [2][-]{subsection.4.2.2}{\376\377\000G\000\046\000T\000-\000s\000e\000q}{section.4.2}% 46
+\BOOKMARK [2][-]{subsection.4.2.3}{\376\377\000P\000h\000y\000s\000i\000c\000a\000l\000\040\000s\000e\000p\000a\000r\000a\000t\000i\000o\000n\000\040\000o\000f\000\040\000t\000h\000e\000\040\000n\000u\000c\000l\000e\000u\000s\000\040\000a\000n\000d\000\040\000c\000y\000t\000o\000p\000l\000a\000s\000m}{section.4.2}% 47
+\BOOKMARK [2][-]{subsection.4.2.4}{\376\377\000G\000e\000n\000o\000t\000y\000p\000i\000n\000g\000\040\000o\000f\000\040\000T\000r\000a\000n\000s\000c\000r\000i\000p\000t\000o\000m\000e\000s\000\040\000\050\000G\000o\000T\000\051\000\040\000\050\0002\0000\0001\0009\000\051}{section.4.2}% 48
+\BOOKMARK [2][-]{subsection.4.2.5}{\376\377\000A\000d\000a\000p\000t\000i\000v\000e\000\040\000i\000m\000m\000u\000n\000e\000\040\000r\000e\000s\000p\000o\000n\000s\000e}{section.4.2}% 49
+\BOOKMARK [1][-]{section.4.3}{\376\377\000T\000r\000a\000n\000s\000c\000r\000i\000p\000t\000o\000m\000e\000\040\000\046\000\040\000e\000p\000i\000g\000e\000n\000o\000m\000e}{chapter.4}% 50
+\BOOKMARK [2][-]{subsection.4.3.1}{\376\377\000D\000N\000A\000\040\000m\000e\000t\000h\000y\000l\000a\000t\000i\000o\000n}{section.4.3}% 51
+\BOOKMARK [2][-]{subsection.4.3.2}{\376\377\000C\000h\000r\000o\000m\000a\000t\000i\000n\000\040\000a\000c\000c\000e\000s\000s\000i\000b\000i\000l\000i\000t\000y}{section.4.3}% 52
+\BOOKMARK [2][-]{subsection.4.3.3}{\376\377\000S\000N\000A\000R\000E\000-\000s\000e\000q\000\040\000\050\0002\0000\0001\0009\000\051}{section.4.3}% 53
+\BOOKMARK [1][-]{section.4.4}{\376\377\000T\000r\000a\000n\000s\000c\000r\000i\000p\000t\000o\000m\000e\000\040\000\046\000\040\000`\000`\000C\000R\000I\000S\000P\000R\000'\000'\000\040\000p\000e\000r\000t\000u\000r\000b\000a\000t\000i\000o\000n\000s}{chapter.4}% 54
+\BOOKMARK [2][-]{subsection.4.4.1}{\376\377\000P\000e\000r\000t\000u\000r\000b\000-\000s\000e\000q\000\040\000\050\0002\0000\0001\0006\000\051}{section.4.4}% 55
+\BOOKMARK [2][-]{subsection.4.4.2}{\376\377\000C\000R\000I\000S\000P\000-\000s\000e\000q\000\040\000\050\0002\0000\0001\0006\000\051}{section.4.4}% 56
+\BOOKMARK [1][-]{section.4.5}{\376\377\000C\000h\000a\000l\000l\000e\000n\000g\000e\000s\000\040\000a\000n\000d\000\040\000o\000p\000p\000o\000r\000t\000u\000n\000i\000t\000i\000e\000s\000\040\000i\000n\000\040\000s\000i\000n\000g\000l\000e\000-\000c\000e\000l\000l\000\040\000m\000u\000l\000t\000i\000m\000o\000d\000a\000l\000\040\000o\000m\000i\000c\000s}{chapter.4}% 57
+\BOOKMARK [0][-]{chapter.5}{\376\377\000S\000p\000a\000t\000i\000a\000l\000\040\000o\000m\000i\000c\000s}{}% 58
+\BOOKMARK [1][-]{section.5.1}{\376\377\000S\000p\000a\000t\000i\000a\000l\000\040\000T\000r\000a\000n\000s\000c\000r\000i\000p\000t\000o\000m\000i\000c\000s}{chapter.5}% 59
+\BOOKMARK [1][-]{section.5.2}{\376\377\000S\000e\000q\000u\000e\000n\000c\000i\000n\000g\000-\000b\000a\000s\000e\000d\000\040\000m\000e\000t\000h\000o\000d\000s}{chapter.5}% 60
+\BOOKMARK [2][-]{subsection.5.2.1}{\376\377\000S\000p\000a\000t\000i\000a\000l\000\040\000t\000r\000a\000n\000s\000c\000r\000i\000p\000t\000o\000m\000i\000c\000s\000\040\000\050\0002\0000\0001\0006\000\051}{section.5.2}% 61
+\BOOKMARK [2][-]{subsection.5.2.2}{\376\377\0001\0000\000x\000\040\000V\000i\000s\000i\000u\000m\000\040\000p\000l\000a\000t\000f\000o\000r\000m\000\040\000f\000o\000r\000\040\000s\000p\000a\000t\000i\000a\000l\000\040\000g\000e\000n\000e\000\040\000e\000x\000p\000r\000e\000s\000s\000i\000o\000n\000\040\000\050\0002\0000\0001\0009\000\051}{section.5.2}% 62
+\BOOKMARK [2][-]{subsection.5.2.3}{\376\377\000S\000i\000T\000\040\000\050\0002\0000\0002\0002\000\051}{section.5.2}% 63
+\BOOKMARK [2][-]{subsection.5.2.4}{\376\377\000D\000B\000i\000T\000-\000s\000e\000q\000\040\000\050\0002\0000\0002\0000\000\051}{section.5.2}% 64
+\BOOKMARK [2][-]{subsection.5.2.5}{\376\377\000S\000l\000i\000d\000e\000-\000s\000e\000q\000\040\000\050\0002\0000\0001\0009\000\051}{section.5.2}% 65
+\BOOKMARK [2][-]{subsection.5.2.6}{\376\377\000S\000e\000q\000-\000s\000c\000o\000p\000e\000\040\000\050\0002\0000\0002\0001\000\051}{section.5.2}% 66
+\BOOKMARK [1][-]{section.5.3}{\376\377\000I\000m\000a\000g\000i\000n\000g\000\040\000b\000a\000s\000e\000d\000\040\000m\000e\000t\000h\000o\000d\000s}{chapter.5}% 67
+\BOOKMARK [2][-]{subsection.5.3.1}{\376\377\000I\000n\000-\000S\000i\000t\000u\000\040\000H\000y\000b\000r\000i\000d\000i\000z\000a\000t\000i\000o\000n}{section.5.3}% 68
+\BOOKMARK [2][-]{subsection.5.3.2}{\376\377\000S\000u\000m\000m\000a\000r\000y}{section.5.3}% 69
+\BOOKMARK [1][-]{section.5.4}{\376\377\000S\000p\000a\000t\000i\000a\000l\000\040\000o\000m\000i\000c\000s\000\040\000a\000n\000a\000l\000y\000s\000i\000s}{chapter.5}% 70
+\BOOKMARK [2][-]{subsection.5.4.1}{\376\377\000D\000e\000c\000o\000n\000v\000o\000l\000u\000t\000i\000o\000n\000\040\000o\000f\000\040\000l\000o\000w\000-\000r\000e\000s\000o\000l\000u\000t\000i\000o\000n\000\040\000m\000u\000l\000t\000i\000-\000c\000e\000l\000l\000\040\000s\000p\000o\000t\000s}{section.5.4}% 71
+\BOOKMARK [2][-]{subsection.5.4.2}{\376\377\000C\000e\000l\000l\000\040\000s\000e\000g\000m\000e\000n\000t\000a\000t\000i\000o\000n\000\040\000i\000n\000\040\000i\000m\000a\000g\000i\000n\000g\000-\000b\000a\000s\000e\000d\000\040\000m\000e\000t\000h\000o\000d\000s}{section.5.4}% 72
+\BOOKMARK [2][-]{subsection.5.4.3}{\376\377\000I\000n\000f\000e\000r\000e\000n\000c\000e\000\040\000o\000f\000\040\000C\000e\000l\000l\000-\000c\000e\000l\000l\000\040\000c\000o\000m\000m\000u\000n\000i\000c\000a\000t\000i\000o\000n}{section.5.4}% 73
+\BOOKMARK [2][-]{subsection.5.4.4}{\376\377\000I\000n\000t\000e\000g\000r\000a\000t\000i\000o\000n\000\040\000b\000e\000t\000w\000e\000e\000n\000\040\000s\000i\000n\000g\000l\000e\000\040\000c\000e\000l\000l\000\040\000a\000n\000d\000\040\000s\000p\000a\000t\000i\000a\000l\000\040\000o\000m\000i\000c\000s}{section.5.4}% 74
+\BOOKMARK [2][-]{subsection.5.4.5}{\376\377\000S\000p\000a\000t\000a\000l\000\040\000o\000m\000i\000c\000s\000\040\000r\000e\000f\000e\000r\000e\000n\000c\000e\000\040\000a\000t\000l\000a\000s\000e\000s}{section.5.4}% 75

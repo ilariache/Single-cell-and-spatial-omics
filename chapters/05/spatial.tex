@@ -57,32 +57,100 @@ The main ST approaches can be divided into:
 \hypertarget{sequencing-based-methods}{%
 \section{Sequencing-based methods}\label{sequencing-based-methods}}
 
-In \textbf{NGS barcoding techniques} spatial locations of transcripts
-obtained by capturing the transcripts from tissue sections on in situ
-arrays
+Sequencing based spatial stranscriptomic methods all rely on the idea of 
+barcoding the molecules in the original tissue using some in situ technique,
+and then to study those molecules using NGS. (The read itself will contain
+both the RNA sequence and some barcode sequence that defines the position in
+the tissue of origin).
 
+Sequencing-based spatial transcriptomics methods can be broadly divided into 
+four main classes, depending on the strategy used to perform the in situ 
+barcording. The barcoding strategy also affects the spatial resolution of the 
+technique which can range from 55 $\mu m$ spots to 0.5 $\mu m$ spots. 
+
+These techiques, sorted from lowest to highest resolution are:
+\begin{itemize}
+\tightlist
+\item 
+  \textbf{10X Visium platform} (2019), which is the optimized version of 
+  \textbf{spatial transcriptomics} (2016)
+\item
+  \textbf{Deterministic barcoding in tissue} (2020)
+\item 
+  \textbf{Slide-seq} (2019)
+\item
+  \textbf{Seq-scope} (2021)
+\end{itemize}
+
+\textbf{NOTE}: Resolution order and chronological order do NOT match.
+
+These techiniques:
 \begin{itemize}
 \tightlist
 \item
-  How many RNAs? several thousands/ unbiased capture (but mainly polyA)
+  Allow to analyze thousands of RNAs and allow for unbiased capture. In 
+  general though, only poly-A transcripts are analyzed.
 \item
-  At which resolution? Not cellular (pixels with 5-50 $\mu m$ resolution)
+  Do not have high-enough resolution to allow for cellular, or subcellular,
+  level analysis (unique exception being Scope-seq).
 \end{itemize}
 
 \hypertarget{spatial-transcriptomics-2016}{%
 \subsection{Spatial transcriptomics
 (2016)}\label{spatial-transcriptomics-2016}}
 
-The adult mouse olfactory bulb brain is a region with clear histological
-landmarks and gene expression reference data. Histological sections
-positioned on \textbf{arrays with printed spot barcodes} (spatial
-barcode, UMI, polyT to capture mRNAs) \emph{(\textasciitilde1k spots,
-spot diameter of 100 $\mu m$ , center-to-center distance of 200 $\mu m$ )} were
-analyzed by Stahl et al,\ldots{}
+Spatial transcriptomics (ST) is the first sequencing based spatial technique.
+Distilling the procedure into its main steps:
+\begin{itemize}
+\tightlist
+\item 
+  Create an array on which probes have been printed in about one thousand 
+  spots of 100 $\mu m$ diameter, and with center-to-center distance of 200 
+  $\mu m$. The probes are composed of cleavage site (to detach the probes 
+  from the slide), amplification and sequencing handle, spatial barcode, 
+  unique molecule identifier (UMI), mRNA capture region. Notice that \emph{(a)}
+  the amplification and sequencing handle is obviously shared by all probes, 
+  \emph{(b)} the spatial barcode is shared by all probes in the same spot, 
+  \emph{(c)} the UMI is different for all probes in a spot, but probes from
+  different spots can have the same UMI (since the combination with the spatial
+  barcode still keeps the probes distinct).
+\item 
+  Place the tissue section on top of the array and perform any required 
+  imaging step (H\&E staining, FISH) to acquire an histological image on 
+  which to project the spatial data.
+\item
+  Permeabilize the cells. In the original paper adult mouse olfactory bulb 
+  was used since it is a brain region with clear histological landmarks and 
+  gene expression reference data.
+\item 
+  The polyadenilated RNAs hybridize with the probes directly beneath.
+\item 
+  The hybridized probes can be removed from the array and can be used to 
+  construct a standard NGS library. The final reads will still contain the 
+  spatial barcode, therefore allowing to map the reads to the original spot on 
+  the array.
+\end{itemize}
+
+Given the fairly low resolution, multiple cells can be present in the same 
+spot; for this reason one cannot be sure that all the transcripts sharing the 
+same spatial barcode do indeed belong to the same cell (doublet detection 
+and/or deconvolution is needed).
 
 \hypertarget{x-visium-platform-for-spatial-gene-expression-2019}{%
 \subsection{10x Visium platform for spatial gene expression
 (2019)}\label{x-visium-platform-for-spatial-gene-expression-2019}}
+
+The 10x Visium platform works almost identically to the original spatial 
+transcriptomics, it is simply a more optimized and streamlined procedure.
+
+The spot size on the slide is reduced to 55 $\mu m$, the distance between spot 
+centers is 100 $\mu m$ and the number of spots is 5000. At this resolution, 1 
+to 10 cells could still be in the same spot. Notice that there still is space 
+on the array which is not covered by any probe.
+
+This technique works with fresh frozen tissues and, starting from 2022, with 
+FFPE (Formalin-Fixed Paraffin-Embedded) tissues (which generally have lower 
+quality since the fixation procedure can degrade RNA). 
 
 \begin{figure}
 \centering
@@ -90,25 +158,68 @@ analyzed by Stahl et al,\ldots{}
 \caption{}
 \end{figure}
 
-\hypertarget{slide-seq-2019}{%
-\subsection{Slide-seq (2019)}\label{slide-seq-2019}}
+\hypertarget{sit-2022}{%
+\subsection{SiT (2022)}\label{sit-2022}}
+
+Spatial Isoform Transcriptomics (SiT) combines Visium platform with long read
+sequencing (Nanopore). The initial steps are the very same ones from the 
+Visium platform, but then two different sequencing libraries can be prepared,
+a short read 3' library for Illumina sequencing, and a full read length
+library for Nanopore sequencing. This allows to analyze spatial distribution
+of isoforms (splicing variants).
+
+Given that the first steps are identical to the standard Visium protocol, 
+resolution and downsides are the same.
 
 \begin{figure}
 \centering
-\includegraphics[width=0.5\textwidth]{images/Screenshot_1.png}
-\caption{}
+\includegraphics[width=0.5\textwidth]{images/Screenshot_4.png}
+\caption{\emph{Lebrigand et al bioRxiv 2022}}
 \end{figure}
 
 \hypertarget{dbit-seq-2020}{%
 \subsection{DBiT-seq (2020)}\label{dbit-seq-2020}}
 
-DBiT(Deterministic Barcoding in Tissue) is an array generated by
-microfluidic channels: 2 orthogonal barcodes ligated, spots identified
-with a unique pairwise combination (A for rows, B for columns).
+Deterministic Barcoding in Tissue, or DBiT-seq, is a method that uses
+microfluidics to distribute the barcodes on the tissue slide, rather than
+having them pre-spotted on the array. Moreover the technique allows for 
+parallel profiling of mRNA and antibody-based protein barcoding.
 
-Channel width: 50, 25, or 10 $\mu m$  50x50 grid (2500 spots). It allows for
-parallel spatial transcriptomic profiling and antibody-based protein
-barcoding.
+The procedure is the following:
+\begin{itemize}
+\tightlist
+\item 
+  Fix the tissue on the slide
+\item
+  If performing antibody-based protein barcoding, add antibodies for the
+  protein(s) of interest. These antibodies are bound to an RNA sequence
+  containing an antibody-derived tag (ADT, just like for CITE-seq) and a
+  a ploy-A sequence.
+\item 
+  Using a microfluidic flow cell with 50 parallel channels, allow 50 
+  different barcodes to flow over the tissue slide. These first barcodes, 
+  barcodes A, will bind to all poly-A chains (both those from mRNAs and those
+  from antibodies). 
+\item
+  Using a second microfluidic flow cell with 50 parallel channels, placed 
+  orthogonally with respect to the first one, 50 barcodes are allowed to
+  flow on the tissue slide. These barcodes, barcodes B, will bind to all
+  barcodes A. Moreover, barcodes B contain a PCR handle. After this step, 
+  all pixels of the slides will be univocally identified by a combination of 
+  barcode A + barcode B.
+\item 
+  Perform imaging steps; this allows to define the position of all pixels 
+  on the slide.
+\item
+  Standard sequencing library preparation.
+\end{itemize}
+
+Notice that the same sequences can be used for barcodes A and barcodes B,
+since they are always attached in a specific order.
+Channel width is what defines the size of the pixel and thus the resolution;
+usual channel widths are 50, 25 or 10 $ \mu m$. The number of pixels is the 
+square of the number of barcodes meaning, for instance, 2500 spots with a
+50x50 grid.
 
 \begin{figure}
 \centering
@@ -116,32 +227,75 @@ barcoding.
 \caption{Liu et al., Cell 2020}
 \end{figure}
 
+\hypertarget{slide-seq-2019}{%
+\subsection{Slide-seq (2019)}\label{slide-seq-2019}}
+
+Slide-seq is akin to spatial transcriptomics in the sense that the tissue
+sample is placed on top of the probes; unlike spatial transcriptomics though, 
+the probes are not directly spotted on the slide, but rather fixed on top of
+10 $\mu m$ diameter beads which are stacked on top of the slide. The probes
+have pretty much the same structure as those used in spatial transcriptomics,
+where the spatial barcode is bead specific and all the probes on a bead have
+different UMIs.
+
+The procedure is the same as spatial transcriptomics but with the different
+slide.
+
+Still, even with 10 $\mu m$ beads, one bead could correspond to 1-3 cells.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{images/Screenshot_1.png}
+\caption{}
+\end{figure}
 
 \hypertarget{seq-scope-2021}{%
 \subsection{Seq-scope (2021)}\label{seq-scope-2021}}
 
-Resolution comparable to an optical microscope (0.5--0.8 $\mu m$ ) use of a
-repurposed Illumina sequencing platform (MiSeq flow-cell in the
-publication).  Application to mice liver sections.
+Seq-scope is a technique that allows for resolution comparable to an optical
+microscope (0.5-0.8 $\mu m$ ) by using a repurposed Illumina sequencing 
+platform (MiSeq flow-cell in the publication).  
+
+The procedure is as follows:
+\begin{itemize}
+\tightlist
+\item 
+  The probes, containing different high-definition map coordinate identifiers,
+  or HDMIs, (which are basically spatial barcodes) are hybridized in random 
+  positions on the MiSeq flow-cell.
+\item 
+  The probes undergo the bridge amplification step, therefore forming 
+  clusters with one HDMI each. 
+\item 
+  By using sequencing by synthesis, the position of the clusters on the flow
+  cell and the HDMIs of each of them are defined. (Consider the clusters
+  as analogous of the spots in other techniques, but randomly placed on the
+  slide and with way smaller size).
+\item
+  The probes are cut in order to expose an oligo-dT tail.
+\item
+  The fresh frozen tissue (mouse liver sections in the original paper) is 
+  placed on top of the flow cell and the cells are permeabilized, allowing 
+  for the poly-adenylated RNAs to bind the probes.
+\item 
+  Imaging steps to define cell positions in the tissue.
+\item
+  During the second strand synthesis a UMI is included for each molecule.
+\item 
+  The hybridized probes are detached from the flow cell and PCR adapters are
+  added.
+\item
+  The probes are therefore amplified and sequenced.
+\end{itemize}
+
+Given the very small size of the clusters, the technique allows for 
+sub-cellular resolution; each cluster will contain only the RNAs from a 
+region of the original cell.
 
 \begin{figure}
 \centering
 \includegraphics[width=0.5\textwidth]{images/Screenshot_3.png}
 \caption{\emph{Cho et al., Cell 2021}}
-\end{figure}
-
-
-\hypertarget{sit-2022}{%
-\subsection{SiT (2022)}\label{sit-2022}}
-
-Spatial Isoform Transcriptomics combines Visium platform with long read
-sequencing (Nanopore). It allows the identification of isoforms
-(splicing variants).
-
-\begin{figure}
-\centering
-\includegraphics[width=0.5\textwidth]{images/Screenshot_4.png}
-\caption{\emph{Lebrigand et al bioRxiv 2022}}
 \end{figure}
 
 \hypertarget{imaging-based-methods}{%
