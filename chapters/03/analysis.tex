@@ -55,7 +55,7 @@ for each gene in each cell we reach the \emph{count matrix}.
 Raw sequencing data output depend on the sequencing platform, which is
 usually Illumina, and are encoded in FASTQ format, which reports a title
 (\texttt{@title}), sequence and a quality score for each base - PHRED
-quality scores encoded as ASCII characters(ASCII 33-126). The title can
+quality scores encoded as ASCII characters (ASCII 33-126). The title can
 contain additional technical information as cell barcodes and UMI,
 useful for downstream analysis. Unique molecular identifier reduce the
 amplification noise by allowing (almost) complete de-duplication of
@@ -622,7 +622,9 @@ methods scale well with increasing numbers of cells.
 \subsubsection{Velocyto (2018)}\label{velocyto-2018}}
 
 \textbf{RNA velocity:} the time derivative of the gene expression state
-(\(\frac{ds}{dt}=u- \gamma s\)) - based on the proportion of unspliced
+(\(\frac{ds}{dt}=u- \gamma s\), where $u$ is the amount of unspliced
+transcripts, $s$ is the amount of splices transcripts, $\gamma$ is the
+degradation rate) - based on the proportion of unspliced
 vs spliced reads in single-cell RNAseq - predicts the future state of
 individual cells on a timescale of hours. In other words, the balance
 between unspliced and spliced mRNAs is predictive of cellular state
@@ -631,11 +633,14 @@ progression, where:
 \begin{itemize}
 \tightlist
 \item
-  \(u > \gamma s\) induction
+  \(u > \gamma s\) induction (amount of newly synthesised RNA is higher
+  than the amount to be degraded)
 \item
-  \(u = \gamma s\) steady state
+  \(u = \gamma s\) steady state (amount of newly synthesised RNA 
+  matches the aumount to be degraded)
 \item
-  \(u < \gamma s\) repression
+  \(u < \gamma s\) repression (amount of newly synthesised RNA is lower
+  than the amount to be degraded)
 \end{itemize}
 
 A read partially mapping an intron and exon is assumed to be
